@@ -29,7 +29,7 @@ body h3 {
 .intro {
   margin-left: auto;
   margin-right: auto;
-  width: 60em;
+  width: 40em;
 }
 
 .txt-intro {
@@ -63,10 +63,68 @@ body h3 {
 }
 
 #conteudo {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
-  width: 50em;
+  width: 40em;
+  color: #797f7d;
+}
+
+.meContrata {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.sublinhadoStyle {
+  background-color: #00a78e;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom: #00a78e;
+  width: 160px;
+}
+
+.habilidades {
+  margin-top: 10px;
+  width: 40em;
+}
+
+.progress {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.progress h4 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #293651;
+  margin: 0;
+}
+
+.progress p {
+  color: #797f7d;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  font-size: 18px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background: -webkit-linear-gradient(top, #45a88e 0%, #45a88e 100%);
+  border-radius: 10px;
+}
+
+.progress-bar[value]::-webkit-progress-bar {
+  background: #e2e2e2;
+  border-radius: 10px;
+}
+.progress-bar {
+  height: 15px;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 10px;
 }
 
 .btn-topo {
