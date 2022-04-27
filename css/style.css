@@ -1,0 +1,97 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #293651;
+  margin: 0;
+}
+
+* {
+  scroll-behavior: smooth;
+  transition-duration: 0.5s;
+}
+
+body h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #293651;
+  letter-spacing: 5px;
+}
+
+.ola {
+  color: #00a78e;
+  font-size: 30px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+
+.intro {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+}
+
+.txt-intro {
+  color: #797f7d;
+  font-size: 22px;
+}
+
+.button {
+  background-color: #00a78e;
+  color: #f8fffc;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button:hover {
+  background-color: #e7f7ef;
+  color: #45a88e;
+}
+
+.image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#conteudo {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
+.btn-topo {
+  cursor: pointer;
+  height: 0px;
+  position: fixed;
+  right: 25px;
+  width: 50px;
+  bottom: 100px;
+  z-index: 1;
+}
+
+.btn-topo-img {
+  justify-content: center;
+  background-color: #00a78e;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.rodape {
+  border-radius: 5px;
+  background-color: #00a78e;
+  bottom: 0;
+  padding: 20px;
+  padding-left: 80px;
+  color: #f8fffc;
+}
