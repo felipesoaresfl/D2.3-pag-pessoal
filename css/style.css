@@ -62,7 +62,7 @@ body h3 {
   text-align: center;
 }
 
-#conteudo {
+.conteudo {
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -94,6 +94,9 @@ body h3 {
   width: 100%;
   height: 100px;
   margin-bottom: 30px;
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .progress h4 {
   font-weight: 500;
@@ -127,6 +130,64 @@ body h3 {
   margin-top: 10px;
 }
 
+.projetos {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 1000px;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.projetos h1 {
+  margin-top: 50px;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #293651;
+}
+
+.sublinhadoStyleCenter {
+  background-color: #00a78e;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom: #00a78e;
+  width: 140px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.caixas-projetos {
+  margin-top: 40px;
+  width: 1000px;
+  height: 800px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.caixas-projetos > .box-projeto {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  padding: 20px 20px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  box-shadow: 3px 8px 8px #e8e8e8;
+  box-sizing: border-box;
+}
+
+.box-projeto p {
+  font-size: 16px;
+  color: #797f7d;
+  text-align: left;
+}
+
+.box-projeto h2 {
+  color: #127869;
+}
 .btn-topo {
   cursor: pointer;
   height: 0px;
