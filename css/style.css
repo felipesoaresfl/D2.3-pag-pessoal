@@ -206,8 +206,8 @@ body h3 {
   height: 50px;
 }
 
-.rodape {
-  width: 500px;
+.contato {
+  width: 800px;
   height: 250px;
   border-radius: 5px;
   background-color: #00a78e;
@@ -215,4 +215,6 @@ body h3 {
   padding: 20px;
   padding-left: 80px;
   color: #f8fffc;
+  margin-left: auto;
+  margin-right: auto;
 }
