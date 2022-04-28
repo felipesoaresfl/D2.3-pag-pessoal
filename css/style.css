@@ -207,6 +207,8 @@ body h3 {
 }
 
 .rodape {
+  width: 500px;
+  height: 250px;
   border-radius: 5px;
   background-color: #00a78e;
   bottom: 0;
