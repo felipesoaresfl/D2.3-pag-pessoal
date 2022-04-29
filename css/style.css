@@ -168,15 +168,14 @@ body h3 {
 
 .caixas-projetos > .box-projeto {
   display: inline-block;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   padding: 20px 20px 20px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 30px;
   background-color: #ffffff;
   box-shadow: 3px 8px 8px #e8e8e8;
-  box-sizing: border-box;
 }
 
 .box-projeto p {
@@ -186,8 +185,9 @@ body h3 {
 }
 
 .box-projeto h2 {
-  color: #127869;
+  color: #293651;
 }
+
 .btn-topo {
   cursor: pointer;
   height: 0px;
@@ -207,13 +207,17 @@ body h3 {
 }
 
 .contato {
+  width: 100%;
+  height: 500px;
+  background-color: #404b49;
+  color: #f8fffc;
+}
+
+.dados-contato {
   width: 800px;
   height: 250px;
   border-radius: 5px;
-  background-color: #00a78e;
-  bottom: 0;
-  padding: 20px;
-  padding-left: 80px;
+  background-color: #19af99;
   color: #f8fffc;
   margin-left: auto;
   margin-right: auto;
