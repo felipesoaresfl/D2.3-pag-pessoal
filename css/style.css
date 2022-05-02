@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 400, 500, 600;
   color: #293651;
   margin: 0;
 }
@@ -209,16 +209,41 @@ body h3 {
 .contato {
   width: 100%;
   height: 500px;
-  background-color: #404b49;
   color: #f8fffc;
 }
 
 .dados-contato {
-  width: 800px;
-  height: 250px;
-  border-radius: 5px;
-  background-color: #19af99;
+  width: 60%;
+  height: 300px;
+  border-radius: 10px;
   color: #f8fffc;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  top: 100px;
+  background-image: url("../images/wave.png");
+  background-size: cover;
+}
+
+.sublinhadoBranco {
+  background-color: #f8fffc;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom: #00a78e;
+  width: 170px;
+  margin-left: 50px;
+  position: relative;
+  top: -15px;
+}
+
+.dados-contato h2,
+strong {
+  position: relative;
+
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.dados-contato h2 {
+  font-size: 40px;
 }
