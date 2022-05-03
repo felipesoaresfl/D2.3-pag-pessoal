@@ -133,7 +133,7 @@ body h3 {
 .projetos {
   background-color: #f9f9f9;
   width: 100%;
-  height: 1000px;
+  height: 1300px;
   margin-top: 100px;
   padding-top: 20px;
 }
@@ -168,18 +168,18 @@ body h3 {
 
 .caixas-projetos > .box-projeto {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   padding: 20px 20px 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
   background-color: #ffffff;
   box-shadow: 3px 8px 8px #e8e8e8;
 }
 
 .box-projeto p {
-  font-size: 16px;
+  font-size: 20px;
   color: #797f7d;
   text-align: left;
 }
@@ -187,6 +187,12 @@ body h3 {
 .box-projeto h2 {
   color: #293651;
 }
+
+.box-projeto:hover {
+  background-color: #e7f7ef;
+  color: #45a88e;
+}
+
 .button:hover {
   background-color: #e7f7ef;
   color: #45a88e;
